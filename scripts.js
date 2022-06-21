@@ -1,0 +1,1 @@
+alert("This website is still in the development period, proceed with caution!");
