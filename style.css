@@ -1,13 +1,19 @@
 .greeting {
   text-align: center;
-  color: rgb(232, 174, 103);
+  font-size: medium;
+  position: relative;
+  top: 160px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
 .greeting-image {
-  background-image: url("/Users/khanhhuaquang/Documents/Coding/Html/Personal-Website/DSC07383.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("assets/greeting-image.jpeg");
 
   width: auto;
-  height: auto;
+  height: 450px;
 
   background-position: center;
   background-repeat: no-repeat;
