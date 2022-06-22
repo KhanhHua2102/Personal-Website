@@ -26,6 +26,21 @@ nav {
   font-style: italic;
 }
 
+#navigation-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navigation-bar li {
+  display: inline-block;
+  padding: 6px;
+}
+
+html {
+  background-color: rgb(242, 229, 208);
+}
+
 blockquote {
   text-align: center;
   font-style: italic;
@@ -51,5 +66,6 @@ article {
 }
 
 footer {
+  font-size: 10px;
   text-align: right;
 }
