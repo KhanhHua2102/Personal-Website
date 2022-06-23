@@ -49,23 +49,48 @@ blockquote {
   font-size: 15px;
 }
 
+h1 {
+  font-size: 22px;
+}
+
 h2 {
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
 }
 
 h3 {
-  font-size: 15px;
+  font-size: 18px;
   margin-left: 35px;
 }
 
 article {
-  font-size: 14px;
+  font-size: 16px;
   margin-left: 2px;
   text-align: left;
 }
 
 footer {
-  font-size: 10px;
-  text-align: right;
+  display: inline;
+  font-size: 14px;
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+#name {
+  font-weight: bold;
+}
+
+#contact1 {
+  display: inline-block;
+  text-align: center;
+}
+
+#link {
+  text-align: center;
+  display: inline-block;
+  margin: 0px;
+  padding: 8px;
 }
