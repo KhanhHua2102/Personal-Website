@@ -8,63 +8,6 @@ body {
   font-family: Apple Symbols;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-.greeting {
-  text-align: center;
-  font-size: 18px;
-  position: relative;
-  top: 120px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-
-.greeting-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("assets/greeting-image.jpeg");
-
-  width: auto;
-  height: 450px;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-#top-btn {
-  position: fixed;
-  bottom: 35px;
-  right: 30px;
-  z-index: 99;
-  border: none;
-  outline: none;
-  background-color: white;
-  color: black;
-  cursor: pointer;
-  padding: 5px;
-  border-radius: 10px;
-  font-size: 15px;
-}
-
-#btn-top:hover {
-  background-color: beige;
-}
-
-#content {
-  background-color: rgb(255, 255, 255);
-  color: rgb(26, 26, 26);
-  margin: 0px;
-  margin-top: 0px;
-  padding: 85px;
-}
-
 nav {
   text-align: center;
   font-style: italic;
@@ -128,6 +71,63 @@ footer ul {
   list-style-type: none;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.greeting {
+  text-align: center;
+  font-size: 18px;
+  position: relative;
+  top: 120px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.greeting-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("assets/greeting-image.jpeg");
+
+  width: auto;
+  height: 450px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#top-btn {
+  position: fixed;
+  bottom: 35px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+#btn-top:hover {
+  background-color: beige;
+}
+
+#content {
+  background-color: rgb(255, 255, 255);
+  color: rgb(26, 26, 26);
+  margin: 0px;
+  margin-top: 0px;
+  padding: 85px;
+}
+
 #name {
   font-weight: bold;
   padding-right: 75px;
@@ -143,5 +143,31 @@ footer ul {
   text-align: center;
   display: inline-block;
   margin: 0px;
+  padding: 13px;
+}
+
+.fa {
+  background: #ffffff;
+  padding: 40%;
+  font-size: 100%;
+  height: auto;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  color: #3B5998;
   padding: 8px;
+}
+
+.fa-linkedin {
+  color: #3B5998;
+}
+
+.fa-github {
+  color: rgb(0, 0, 0);
 }
