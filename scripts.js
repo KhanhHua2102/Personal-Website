@@ -1,4 +1,4 @@
-alert("This website is still in the development period, proceed with caution!");
+//alert("This website is still in the development period, proceed with caution!");
 button = document.getElementById("top-btn");
 window.onscroll = function () {scrollFunction()};
 
