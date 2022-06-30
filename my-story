@@ -1,133 +1,132 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script src="scripts.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    <title>QK Personal Website</title>
-    <div class="greeting-image">
-      <div class="greeting">
-        <h1 style="font-family: Avenir Heavy; font-size: 40px;">
-          Welcome!<br />I'm Quang Khanh
-        </h1>
-      </div>
-    </div>
 
-    <nav>
-      <ul id="navigation-bar" style="padding-bottom: 0; margin-bottom: 0; margin-top: 45px;">
-        <li><a href="#about-me">About me</a></li>
-        <li><a href="#my-story">My story</a></li>
-        <li><a  href="#contact-me">Contact me</a></li>
-      </ul>
-    </nav>
+  <head>
+    <title>QK - My Story</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css" />
   </head>
 
-  <div id="content">
-    <ul style="list-style-type: none; padding: 0; display: inline;">
-      <li>
-        <h2 id="my-journey">My story</h2>
-        <h3>Making the first step</h3>
-        <article>
-          This journey started when I was a little boy curious about computers and technology. 
-          When I was studying secondary school, my mom took me to a software academy center, 
-          where I ended up spending all my three precious months of the summer time there. 
-          I was in an introduction to computer and office software course. The course caught my interest. 
-          From time to time, I became more interested in the new field ahead and amazed at how this whole thing operated on those computers. 
-          After the summer break, I eventually had three certificates in office software, basic image editing on Photoshop, and basic web designing. 
-          What a significant achievement for a 13-year-olds boy =)).
-        </article>
-      </li>
-      <li style="position: relative; left: 10%; margin-top: 20px;">
-        <img id="center" src="https://c.tenor.com/lCP8U3IWX0wAAAAC/its-not-working-frame-order.gif" alt="children learning computer" width=80% height=auto>
-      </li>
-    </ul>
+    <body>
+        <div class="greeting-image">
+          <div class="greeting">
+            <h1 style="font-family: Avenir Heavy; font-size: 40px;">
+              Welcome!<br />I'm Quang Khanh
+            </h1>
+          </div>
+        </div>
+        <nav>
+            <ul id="navigation-bar">
+                <li><a href="index.html">About me</a></li>
+                <li><a href="#my-story">My story</a></li>
+                <li><a  href="#contact-me">Contact me</a></li>
+            </ul>
+        </nav>
+        <article id="content">
+        <ul style="list-style-type: none; padding: 0; display: inline;">
+            <li>
+                <h2 id="my-journey">My story</h2>
+                <h3>Making the first step</h3>
+                <p>
+                This journey started when I was a little boy curious about computers and technology. 
+                When I was studying secondary school, my mom took me to a software academy center, 
+                where I ended up spending all my three precious months of the summer time there. 
+                I was in an introduction to computer and office software course. The course caught my interest. 
+                From time to time, I became more interested in the new field ahead and amazed at how this whole thing operated on those computers. 
+                After the summer break, I eventually had three certificates in office software, basic image editing on Photoshop, and basic web designing. 
+                What a significant achievement for a 13-year-olds boy =)).
+                </p>
+            </li>
+            <li style="position: relative; left: 10%; margin-top: 20px;">
+                <img id="center" src="https://c.tenor.com/lCP8U3IWX0wAAAAC/its-not-working-frame-order.gif" alt="rookie coder" width=80% height=auto>
+            </li>
+        </ul>
 
-    <h3>First engagement with robotics</h3>
-    <article>
-      <h4>The first prototype</h4>
-        <img id="center" src="assets/IMG_20180915_212918.jpg" style="position: relative; left: 10%; margin-top: 20px; width: 80%; height: auto;">
-        <img id="center" src="assets/IMG_20180915_212922.jpg" style="position: relative; left: 10%; margin-top: 20px; width: 80%; height: auto;">
-        The 
-      <h4>3-motor the first</h4>
-        <img id="center" src="assets/IMG_20180925_225230.jpg" style="position: relative; left: 10%; margin-top: 20px; width: 80%; height: auto;">
-      <h4>The enhenced 3-motor</h4>
-        <img id="center" src="assets/IMG_20180922_211725.jpg" style="position: relative; left: 10%; margin-top: 20px; width: 80%; height: auto;">
-        <img id="center" src="assets/IMG_20180922_211734.jpg" style="position: relative; left: 10%; margin-top: 20px; width: 80%; height: auto;">
-      <h4>The wall</h4>
-        <img id="center" src="assets/IMG_20190118_214139.jpg" style="position: relative; left: 10%; margin-top: 20px; width: 80%; height: auto;">
-        <img id="center" src="assets/IMG_20190118_214152.jpg" style="position: relative; left: 10%; margin-top: 20px; width: 80%; height: auto;">
-      <h4>Victory is mine!</h4>
-        <img id="center" src="assets/IMG_20190303_231925.jpg" style="position: relative; left: 10%; margin-top: 20px; width: 80%; height: auto;">
-        <img id="center" src="assets/IMG_20190303_231942.jpg" style="position: relative; left: 10%; margin-top: 20px; width: 80%; height: auto;">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad saepe qui
+        <h3>First engagement with robotics</h3>
+        <p>
+        <h4>The first prototype</h4>
+            <img id="image" src="assets/IMG_20180915_212918.jpg" alt="robot pic">
+            <img id="image" src="assets/IMG_20180915_212922.jpg" alt="robot pic">
+            The 
+        <h4>3-motor the first</h4>
+            <img id="image" src="assets/IMG_20180925_225230.jpg" alt="robot pic">
+        <h4>The enhenced 3-motor</h4>
+            <img id="image" src="assets/IMG_20180922_211725.jpg" alt="robot pic">
+            <img id="image" src="assets/IMG_20180922_211734.jpg" alt="robot pic">
+        <h4>The wall</h4>
+            <img id="image" src="assets/IMG_20190118_214139.jpg" alt="robot pic">
+            <img id="image" src="assets/IMG_20190118_214152.jpg" alt="robot pic">
+        <h4>Victory is mine!</h4>
+            <img id="image" src="assets/IMG_20190303_231925.jpg" alt="robot pic">
+            <img id="image" src="assets/IMG_20190303_231942.jpg" alt="robot pic">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad saepe qui
+            magni perspiciatis non placeat quidem illo sapiente veniam, cupiditate
+            iusto obcaecati aspernatur labore iste dicta, voluptate assumenda impedit
+            laudantium!
+        </p>
+
+        <h3>48 hours of Makerthong</h3>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad saepe qui
         magni perspiciatis non placeat quidem illo sapiente veniam, cupiditate
         iusto obcaecati aspernatur labore iste dicta, voluptate assumenda impedit
         laudantium!
-    </article>
+        </p>
 
-    <h3>48 hours of Makerthong</h3>
-    <article>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad saepe qui
-      magni perspiciatis non placeat quidem illo sapiente veniam, cupiditate
-      iusto obcaecati aspernatur labore iste dicta, voluptate assumenda impedit
-      laudantium!
-    </article>
+        <h3>WRO 2019 - The real challenging competition</h3>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad saepe qui
+        magni perspiciatis non placeat quidem illo sapiente veniam, cupiditate
+        iusto obcaecati aspernatur labore iste dicta, voluptate assumenda impedit
+        laudantium!
+        </p>
 
-    <h3>WRO 2019 - The real challenging competition</h3>
-    <article>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad saepe qui
-      magni perspiciatis non placeat quidem illo sapiente veniam, cupiditate
-      iusto obcaecati aspernatur labore iste dicta, voluptate assumenda impedit
-      laudantium!
-    </article>
+        <h3>Prepairing for a new learning journey</h3>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad saepe qui
+        magni perspiciatis non placeat quidem illo sapiente veniam, cupiditate
+        iusto obcaecati aspernatur labore iste dicta, voluptate assumenda impedit
+        laudantium!
+        </p>
 
-    <h3>Prepairing for a new learning journey</h3>
-    <article>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad saepe qui
-      magni perspiciatis non placeat quidem illo sapiente veniam, cupiditate
-      iusto obcaecati aspernatur labore iste dicta, voluptate assumenda impedit
-      laudantium!
-    </article>
+        <h3>Start university</h3>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad saepe qui
+        magni perspiciatis non placeat quidem illo sapiente veniam, cupiditate
+        iusto obcaecati aspernatur labore iste dicta, voluptate assumenda impedit
+        laudantium!
+        </p>
 
-    <h3>Start university</h3>
-    <article>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad saepe qui
-      magni perspiciatis non placeat quidem illo sapiente veniam, cupiditate
-      iusto obcaecati aspernatur labore iste dicta, voluptate assumenda impedit
-      laudantium!
-    </article>
+        <h3>Life in Western Australia!</h3>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad saepe qui
+        magni perspiciatis non placeat quidem illo sapiente veniam, cupiditate
+        iusto obcaecati aspernatur labore iste dicta, voluptate assumenda impedit
+        laudantium!
+        </p>
 
-    <h3>Life in Western Australia!</h3>
-    <article>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad saepe qui
-      magni perspiciatis non placeat quidem illo sapiente veniam, cupiditate
-      iusto obcaecati aspernatur labore iste dicta, voluptate assumenda impedit
-      laudantium!
+        <button onclick="topFunction()" id="top-btn" title="Go to top">⬆</button>
     </article>
-
-    <button onclick="topFunction()" id="top-btn" title="Go to top" style="font-size: 16px">⬆</button>
+    <footer>
+        <h2 id="contact-me">Contact me</h2>
+        <ul style="margin-bottom: 0px">
+        <li>
+            <ul>
+            <li id="name">Quang Khanh Hua (Henry)</li>
+            <li style="padding-right: 70px;"><strong>Phone number (AU):</strong></br> (+61) 421 857 998</li>
+            </ul>
+        </li>
+        <li style="padding-right: 35px;"><strong>Email:</strong></br>quang.khanh2102@gmail.com</li>
+        </ul>
+            <ul id="social-link">
+            <li id="link"></br><a href="https://github.com/KhanhHua2102" class="fa fa-github" target="_blank"></a></li>
+            <li id="link"><a href="https://www.linkedin.com/in/khanhhua2102/" class="fa fa-linkedin" target="_blank"></a></li>
+            <li id="link"><a href="https://www.facebook.com/HuaQuangKhanh" class="fa fa-facebook" target="_blank"></a></a></li>
+        </ul>
+        <a href="index2.html">New Bootstrap website</a>
+        <div id="copyright">Copyright © KhanhHua2102 2022</div>
+    </footer>
+    <script src="scripts.js"></script>
   </body>
 
-  <footer>
-    <h2 id="contact-me">Contact me</h2>
-    <ul style="margin-bottom: 0px">
-      <li>
-        <ul>
-          <li id="name">Quang Khanh Hua (Henry)</li>
-          <li style="padding-right: 70px;"><strong>Phone number (AU):</strong></br> (+61) 421 857 998</li>
-        </ul>
-      </li>
-      <li style="padding-right: 35px;"><strong>Email:</strong></br>quang.khanh2102@gmail.com</li>
-    </ul>
-
-    <ul style="padding-right: 30px; margin-top: 0px">
-      <li id="link"></br><a href="https://github.com/KhanhHua2102" class="fa fa-github" target="_blank"></a></li>
-      <li id="link"><a href="https://www.linkedin.com/in/khanhhua2102/" class="fa fa-linkedin" target="_blank"></a></li>
-      <li id="link"><a href="https://www.facebook.com/HuaQuangKhanh" class="fa fa-facebook" target="_blank"></a></a></li>
-    </ul>
-    <a href="index2.html">New Bootstrap website</a>
-    <div style="text-align: right; font-size: 15px">Copyright © KhanhHua2102 2022</div>
-  </footer>
-  </div>
 </html>
