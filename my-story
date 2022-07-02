@@ -50,7 +50,7 @@
             The 
         <h4>3-motor the first</h4>
             <img id="image" src="assets/IMG_20180925_225230.jpg" alt="robot pic">
-        <h4>The enhenced 3-motor</h4>
+        <h4>The enhanced 3-motor</h4>
             <img id="image" src="assets/IMG_20180922_211725.jpg" alt="robot pic">
             <img id="image" src="assets/IMG_20180922_211734.jpg" alt="robot pic">
         <h4>The wall</h4>
@@ -123,7 +123,7 @@
             <li id="link"><a href="https://www.linkedin.com/in/khanhhua2102/" class="fa fa-linkedin" target="_blank"></a></li>
             <li id="link"><a href="https://www.facebook.com/HuaQuangKhanh" class="fa fa-facebook" target="_blank"></a></a></li>
         </ul>
-        <a href="index2.html">New Bootstrap website</a>
+        <a href="index2.html" style="margin-left: 30px">New Bootstrap website</a>
         <div id="copyright">Copyright © KhanhHua2102 2022</div>
     </footer>
     <script src="scripts.js"></script>

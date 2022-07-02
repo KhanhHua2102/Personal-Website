@@ -36,6 +36,7 @@ nav {
 
 h1 {
   font-size: 45px;
+  font-family: Avenir Heavy;
 }
 
 h2 {
@@ -94,7 +95,7 @@ footer ul {
 
 .greeting {
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
   position: relative;
   top: 120px;
   left: 50%;
@@ -201,5 +202,7 @@ footer ul {
 
 #copyright {
   text-align: right;
+  margin-right: 20px;
+  margin-bottom: 20px;
   font-size: 15px;
 }
