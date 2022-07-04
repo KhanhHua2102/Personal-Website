@@ -19,7 +19,7 @@
         <div class="container"><a class="navbar-brand" href="index.html">Quang Khanh</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">About ME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="home.html">About ME</a></li>
                     <li class="nav-item"><a class="nav-link" href="my-story.html">My Story</a></li>
                 </ul>
             </div>
@@ -31,7 +31,7 @@
             <div class="row">
                 <div class="col-md-10 col-lg-8 mx-auto position-relative">
                     <div class="site-heading">
-                        <h1 style="text-align: right;font-size: 58px;color: #ecf0f1;">And this is my story...</h1>
+                        <h1 id="greetings" style="text-align: right;color: #ecf0f1;">And this is my story...</h1>
                         <h1></h1><span class="subheading"></span>
                     </div>
                 </div>
@@ -40,11 +40,11 @@
     </header>
     <figure>
         <blockquote class="blockquote">
-            <p class="mb-0" style="text-align: center;margin-right: 0px;padding-right: 20%;padding-left: 20%;font-size: 24px;"><strong><em><span style="color: rgb(212, 152, 74);">To laugh often and much; to win the respect of the intelligent people and the affection of children; to earn the appreciation of honest critics and endure the betrayal of false friends; to appreciate beauty; to find the beauty in others; to leave the world a bit better whether by a healthy child, a garden patch, or a redeemed social condition; to know that one life has breathed easier because you lived here. This is to have succeeded.</span></em></strong></p>
+            <p class="mb-0" style="text-align: center;font-size: 24px;"><strong><em><span style="color: rgb(212, 152, 74);">To laugh often and much; to win the respect of the intelligent people and the affection of children; to earn the appreciation of honest critics and endure the betrayal of false friends; to appreciate beauty; to find the beauty in others; to leave the world a bit better whether by a healthy child, a garden patch, or a redeemed social condition; to know that one life has breathed easier because you lived here. This is to have succeeded.</span></em></strong></p>
         </blockquote>
         <figcaption class="blockquote-footer" style="padding-left: 25%;padding-top: 10px;padding-bottom: 50px;"><strong><em><span style="color: rgb(180, 167, 167);">Ralph Waldo Emerson</span></em></strong></figcaption>
     </figure>
-    <div class="col-md-10 col-lg-8 mx-auto">
+    <div class="col-md-10 col-lg-8 mx-auto content">
         <h1>My Story</h1>
         <h2>Making the first step</h2>
         <p></p>
@@ -78,27 +78,26 @@
         <p></p>
         <p></p>
     </div>
-    <footer style="background: #2c3e50;padding-bottom: 40px;margin-bottom: 0px;margin-top: 53px;padding-top: 40px;">
+    <footer class="footer" style="background: #2c3e50;padding-bottom: 40px;margin-bottom: 0px;margin-top: 53px;padding-top: 40px;">
         <div class="row">
-            <div class="col-sm-6 col-md-4 text-center footer-navigation"><img id="logo" class="logo" src="assets/img/KhanhHua2102-white.svg" style="width: 250px;margin-right: 0px;padding-bottom: 0px;padding-left: 0px;"></div>
+            <div class="col-sm-6 col-md-4 text-center footer-navigation"><img id="logo" class="logo logo-open-work" src="assets/img/KhanhHua2102-white.svg" style="width: 250px;margin-right: 0px;padding-bottom: 0px;padding-left: 0px;">
+                <p id="open-for-work" class="logo-open-work">I'm currently open for intern and part time jobs in Perth or remote mode</p>
+            </div>
             <div class="col-sm-6 col-md-4 footer-contacts">
-                <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
+                <div class="middle-footer"><span class="fa fa-map-marker footer-contacts-icon"> </span>
                     <p><span class="new-line-span"></span>Perth, Australia</p>
                 </div>
-                <div><i class="fa fa-phone footer-contacts-icon"></i>
+                <div class="middle-footer"><i class="fa fa-phone footer-contacts-icon"></i>
                     <p class="footer-center-info email text-start"> +61 421 857 998</p>
                 </div>
-                <div><i class="fa fa-envelope footer-contacts-icon"></i>
+                <div class="middle-footer"><i class="fa fa-envelope footer-contacts-icon"></i>
                     <p> <a href="#" target="_blank">quang.khanh2102@gmail.com</a></p>
                 </div>
             </div>
             <div class="col-md-4 footer-about">
-                <h4 id="social-link">Social links</h4>
-                <div class="social-links social-icons" style="text-align: left;">
-                <a href="https://www.facebook.com/HuaQuangKhanh" target="_blank"><i class="fa fa-facebook"></i></a>
-                <a href="https://www.linkedin.com/in/khanhhua2102/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                <a href="https://github.com/KhanhHua2102" target="_blank"><i class="fa fa-github"></i></a>
-                <p class="company-name" style="padding-bottom: 0px;text-align: left;">KhanhHua2102 © 2022</p>
+                <h4 id="social-link" class="right-footer">Social links</h4>
+                <div class="social-links social-icons right-footer" style="text-align: left;"><a href="https://www.facebook.com/HuaQuangKhanh" target="blank"><i class="fa fa-facebook"></i></a><a href="https://www.linkedin.com/in/khanhhua2102/" target="blank"><i class="fa fa-linkedin"></i></a><a href="https://github.com/KhanhHua2102" target="blank"><i class="fa fa-github"></i></a></div>
+                <p class="company-name right-footer" style="padding-bottom: 0px;text-align: left;">KhanhHua2102 © 2022</p>
             </div>
         </div>
     </footer>

@@ -5,6 +5,7 @@ body {
 #logo {
   margin-top: -8px;
   /*padding-right: 0px;*/
+  margin-bottom: 0px;
 }
 
 .company-name {
@@ -27,10 +28,74 @@ body {
   bottom: -5rem;
 }
 
-#blockquote {
-  /*text-color: #f1c40f;*/
+#open-for-work {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  bottom: 57px;
+  max-width: 30rem;
 }
 
-p {
+@media (min-width: 1200px) {
+  .middle-footer {
+    margin-left: 18%;
+  }
+}
+
+@media (max-width: 400px) {
+  .middle-footer {
+    margin-top: -20px;
+    padding-top: 0px;
+  }
+}
+
+@media (max-width: 400px) {
+  .right-footer {
+    padding-left: 25%;
+    margin-top: -36px;
+    padding-top: 0px;
+  }
+}
+
+.logo-open-work {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+@media (max-width: 400px) {
+  .masthead {
+    left: 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 400px;
+  }
+}
+
+@media (max-width: 400px) {
+  #greetings {
+    font-size: 38px;
+    position: relative;
+    right: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  .mb-0 {
+    margin: 0% 0% 0% 0%;
+    padding: 0% 8% 0% 8%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .mb-0 {
+    margin: 0% 0% 0% 0%;
+    padding: 0% 20% 0% 20%;
+  }
+}
+
+@media (max-width: 400px) {
+  .content {
+    padding: 0 8% 0 8%;
+  }
 }
 
