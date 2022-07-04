@@ -33,4 +33,7 @@
     });
   }
 
-})(); // End of use strict
+})();// End of use strict
+
+translate-button = document.getElementById("vietnamese");
+if window.location.href = "index.html"
