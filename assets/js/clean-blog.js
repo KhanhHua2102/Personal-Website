@@ -35,5 +35,16 @@
 
 })();// End of use strict
 
-translate-button = document.getElementById("vietnamese");
-if window.location.href = "index.html"
+//alert("This website is still in the development period, proceed with caution!");
+
+button = document.getElementById("scroll-to-top");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if(document.body.scollTop > 100 || document.documentElement.scollTop > 100) {
+        button.style.display = "box";
+    }
+    else {
+        button.style.display = "none";
+    }
+}
